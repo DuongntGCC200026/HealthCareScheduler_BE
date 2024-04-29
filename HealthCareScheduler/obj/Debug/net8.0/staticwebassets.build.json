@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Cwb5hMr0aDaDnCvRLhtouRBnPh48eM3RCNi2FDjSbOs=",
+  "Source": "HealthCareScheduler",
+  "BasePath": "_content/HealthCareScheduler",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
