@@ -1,0 +1,99 @@
+﻿using HealthCareScheduler.Models;
+using HealthCareScheduler.Repositories.Interface;
+using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol.Plugins;
+
+namespace HealthCareScheduler.Repositories
+{
+    public class ServiceRepository : IServiceRepository
+    {
+        private readonly ApplicationDbContext _context;
+
+        public ServiceRepository(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+        public void CreateService(Service service)
+        {
+            try
+            {
+                _context.Services.Add(service);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw new Exception("Error creating service");
+            }
+        }
+
+        public void DeleteService(Service service)
+        {
+            try
+            {
+                _context.Services.Remove(service);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw new Exception("Error deleting service");
+            }
+        }
+
+        public List<Service> GetAllServices(int limit)
+        {
+            try
+            {
+                if (limit == 0)
+                {
+                    return _context.Services.ToList();
+                }
+                else
+                {
+                    return _context.Services.Take(limit).ToList();
+                }
+            }
+            catch (Exception)
+            {
+                throw new Exception("Error fetch service");
+            }
+        }
+
+        public Service GetServiceById(Guid id)
+        {
+            try
+            {
+                return _context.Services.Where(u => u.ServiceId == id).AsNoTracking().FirstOrDefault();
+            }
+            catch (Exception)
+            {
+                throw new Exception("Error getting service");
+            }
+        }
+
+        public Service GetServiceByName(string name)
+        {
+            try
+            {
+                Service faculty = _context.Services.FirstOrDefault(u => u.ServiceName == name);
+                return faculty;
+            }
+            catch (Exception)
+            {
+                throw new Exception("Error getting service");
+            }
+        }
+
+        public void UpdateService(Service service)
+        {
+            try
+            {
+                _context.Entry(service).State = EntityState.Modified;
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw new Exception("Error updating service");
+            }
+        }
+    }
+}

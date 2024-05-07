@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HealthCareScheduler.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240408024007_initDb")]
+    [Migration("20240506153436_initDb")]
     partial class initDb
     {
         /// <inheritdoc />
@@ -31,6 +31,9 @@ namespace HealthCareScheduler.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("BranchId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("datetime2");
 
@@ -47,10 +50,13 @@ namespace HealthCareScheduler.Migrations
                     b.Property<Guid>("ServiceId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("Status")
-                        .HasColumnType("bit");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("AppointmentId");
+
+                    b.HasIndex("BranchId");
 
                     b.HasIndex("DoctorId");
 
@@ -132,6 +138,10 @@ namespace HealthCareScheduler.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Prescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Treatment")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -141,49 +151,6 @@ namespace HealthCareScheduler.Migrations
                     b.HasIndex("AppointmentId");
 
                     b.ToTable("MedicalRecords");
-                });
-
-            modelBuilder.Entity("HealthCareScheduler.Models.Medicine", b =>
-                {
-                    b.Property<Guid>("MedicineId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MedicineName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Note")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("MedicineId");
-
-                    b.ToTable("Medicines");
-                });
-
-            modelBuilder.Entity("HealthCareScheduler.Models.Prescription", b =>
-                {
-                    b.Property<Guid>("RecordId")
-                        .HasColumnType("uniqueidentifier")
-                        .HasColumnOrder(2);
-
-                    b.Property<Guid>("MedicineId")
-                        .HasColumnType("uniqueidentifier")
-                        .HasColumnOrder(1);
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.HasKey("RecordId", "MedicineId");
-
-                    b.HasIndex("MedicineId");
-
-                    b.ToTable("Prescriptions");
                 });
 
             modelBuilder.Entity("HealthCareScheduler.Models.Role", b =>
@@ -308,7 +275,7 @@ namespace HealthCareScheduler.Migrations
                             Email = "admin@gmail.com",
                             FirstName = "Admin",
                             LastName = "Admin",
-                            Password = "AQAAAAIAAYagAAAAEDhoS+4Ad6Bi257BA5oHhRoMTaWoyB6go/hDRFZzyGCVIMJieHpJb2fkLpqwoa6viw==",
+                            Password = "AQAAAAIAAYagAAAAEOA5Yk06eoKYuYThCTBOHuWLANHjRyH4UO6ZVP1IqRE3PVq3JHgvJGpghT+zsaJOCw==",
                             PhoneNumber = "1234567890",
                             RoleId = new Guid("f0c0879e-9ff3-4a24-a0e7-0ff51eab20df"),
                             Specialization = "Admin"
@@ -317,6 +284,12 @@ namespace HealthCareScheduler.Migrations
 
             modelBuilder.Entity("HealthCareScheduler.Models.Appointment", b =>
                 {
+                    b.HasOne("HealthCareScheduler.Models.Branch", "Branch")
+                        .WithMany("AppointmentsUsers")
+                        .HasForeignKey("BranchId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("HealthCareScheduler.Models.User", "Doctor")
                         .WithMany("DoctorApppointments")
                         .HasForeignKey("DoctorId")
@@ -334,6 +307,8 @@ namespace HealthCareScheduler.Migrations
                         .HasForeignKey("ServiceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Branch");
 
                     b.Navigation("Doctor");
 
@@ -364,25 +339,6 @@ namespace HealthCareScheduler.Migrations
                     b.Navigation("Appointment");
                 });
 
-            modelBuilder.Entity("HealthCareScheduler.Models.Prescription", b =>
-                {
-                    b.HasOne("HealthCareScheduler.Models.Medicine", "Medicine")
-                        .WithMany("Appointments")
-                        .HasForeignKey("MedicineId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("HealthCareScheduler.Models.MedicalRecord", "MedicalRecord")
-                        .WithMany()
-                        .HasForeignKey("RecordId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("MedicalRecord");
-
-                    b.Navigation("Medicine");
-                });
-
             modelBuilder.Entity("HealthCareScheduler.Models.User", b =>
                 {
                     b.HasOne("HealthCareScheduler.Models.Branch", "Branch")
@@ -407,12 +363,9 @@ namespace HealthCareScheduler.Migrations
 
             modelBuilder.Entity("HealthCareScheduler.Models.Branch", b =>
                 {
-                    b.Navigation("Users");
-                });
+                    b.Navigation("AppointmentsUsers");
 
-            modelBuilder.Entity("HealthCareScheduler.Models.Medicine", b =>
-                {
-                    b.Navigation("Appointments");
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("HealthCareScheduler.Models.Role", b =>

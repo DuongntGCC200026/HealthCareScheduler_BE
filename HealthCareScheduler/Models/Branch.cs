@@ -18,5 +18,6 @@ namespace HealthCareScheduler.Models
 		[StringLength(100)]
 		public string Location { get; set; }
 		public virtual ICollection<User>? Users { get; set; }
+		public virtual ICollection<Appointment>? AppointmentsUsers { get; set; }
 	}
 }

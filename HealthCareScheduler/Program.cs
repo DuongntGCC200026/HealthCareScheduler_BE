@@ -1,6 +1,14 @@
 using HealthCareScheduler.Models;
+using HealthCareScheduler.Services.Interface;
+using HealthCareScheduler.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using HealthCareScheduler.Repositories.Interface;
+using HealthCareScheduler.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text.Json;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,8 +26,50 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
+
+
+// Add services to the container.
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IRoleService, RoleService>();
+builder.Services.AddScoped<IBranchService, BranchService>();
+builder.Services.AddScoped<IServiceService, ServiceService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IAppointmentService, AppointmentService>();
+
+
+// Add repositories to the container.
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+builder.Services.AddScoped<IBranchRepository, BranchRepository>();
+builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
+builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
+
+// Add services to the container.
+builder.Services.AddCors();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+	options.TokenValidationParameters = new TokenValidationParameters
+	{
+		ValidateIssuer = true,
+		ValidateAudience = true,
+		ValidateLifetime = true,
+		ValidateIssuerSigningKey = true,
+		ValidIssuer = Environment.GetEnvironmentVariable("JWT_ISSUER"),
+		ValidAudience = Environment.GetEnvironmentVariable("JWT_AUDIENCE"),
+		IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Environment.GetEnvironmentVariable("JWT_KEY")))
+	};
+});
 
 builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+builder.Services
+	.AddControllers()
+	.AddJsonOptions(options =>
+	{
+		options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+	});
 
 var app = builder.Build();
 
@@ -30,8 +80,16 @@ if (app.Environment.IsDevelopment())
 	app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseCors(builder =>
+{
+	builder
+	.AllowAnyOrigin()
+	.AllowAnyMethod()
+	.AllowAnyHeader();
+});
 
+app.UseHttpsRedirection();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

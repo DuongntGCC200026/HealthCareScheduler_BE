@@ -257,3 +257,5 @@ D:\GW\1682 - Final Project 1 (04_11_2023)\SourceCode\Backend\HealthCareScheduler
 D:\GW\1682 - Final Project 1 (04_11_2023)\SourceCode\Backend\HealthCareScheduler\HealthCareScheduler\obj\Debug\net8.0\HealthCareScheduler.pdb
 D:\GW\1682 - Final Project 1 (04_11_2023)\SourceCode\Backend\HealthCareScheduler\HealthCareScheduler\obj\Debug\net8.0\HealthCareScheduler.genruntimeconfig.cache
 D:\GW\1682 - Final Project 1 (04_11_2023)\SourceCode\Backend\HealthCareScheduler\HealthCareScheduler\obj\Debug\net8.0\ref\HealthCareScheduler.dll
+D:\GW\1682 - Final Project 1 (04_11_2023)\SourceCode\Backend\HealthCareScheduler\HealthCareScheduler\obj\Debug\net8.0\HealthCareScheduler.sourcelink.json
+D:\GW\1682 - Final Project 1 (04_11_2023)\SourceCode\Backend\HealthCareScheduler\HealthCareScheduler\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

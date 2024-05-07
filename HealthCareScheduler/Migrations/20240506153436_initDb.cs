@@ -28,20 +28,6 @@ namespace HealthCareScheduler.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Medicines",
-                columns: table => new
-                {
-                    MedicineId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    MedicineName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Note = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Medicines", x => x.MedicineId);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Roles",
                 columns: table => new
                 {
@@ -105,14 +91,21 @@ namespace HealthCareScheduler.Migrations
                     AppointmentId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     DateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Noted = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Status = table.Column<bool>(type: "bit", nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PatientId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     DoctorId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    ServiceId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                    ServiceId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    BranchId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Appointments", x => x.AppointmentId);
+                    table.ForeignKey(
+                        name: "FK_Appointments_Branches_BranchId",
+                        column: x => x.BranchId,
+                        principalTable: "Branches",
+                        principalColumn: "BranchId",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Appointments_Services_ServiceId",
                         column: x => x.ServiceId,
@@ -162,6 +155,7 @@ namespace HealthCareScheduler.Migrations
                     Dianosis = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Treatment = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Note = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Prescription = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     AppointmentId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -172,31 +166,6 @@ namespace HealthCareScheduler.Migrations
                         column: x => x.AppointmentId,
                         principalTable: "Appointments",
                         principalColumn: "AppointmentId",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Prescriptions",
-                columns: table => new
-                {
-                    MedicineId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    RecordId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Quantity = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Prescriptions", x => new { x.RecordId, x.MedicineId });
-                    table.ForeignKey(
-                        name: "FK_Prescriptions_MedicalRecords_RecordId",
-                        column: x => x.RecordId,
-                        principalTable: "MedicalRecords",
-                        principalColumn: "RecordId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Prescriptions_Medicines_MedicineId",
-                        column: x => x.MedicineId,
-                        principalTable: "Medicines",
-                        principalColumn: "MedicineId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -214,7 +183,12 @@ namespace HealthCareScheduler.Migrations
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "UserId", "Address", "BranchId", "DateOfBirth", "Email", "FirstName", "LastName", "Password", "PhoneNumber", "RoleId", "Specialization" },
-                values: new object[] { new Guid("53724a55-7fc2-4819-88f1-6291d5db64ea"), "Admin Address", null, new DateTime(2002, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@gmail.com", "Admin", "Admin", "AQAAAAIAAYagAAAAEDhoS+4Ad6Bi257BA5oHhRoMTaWoyB6go/hDRFZzyGCVIMJieHpJb2fkLpqwoa6viw==", "1234567890", new Guid("f0c0879e-9ff3-4a24-a0e7-0ff51eab20df"), "Admin" });
+                values: new object[] { new Guid("53724a55-7fc2-4819-88f1-6291d5db64ea"), "Admin Address", null, new DateTime(2002, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@gmail.com", "Admin", "Admin", "AQAAAAIAAYagAAAAEOA5Yk06eoKYuYThCTBOHuWLANHjRyH4UO6ZVP1IqRE3PVq3JHgvJGpghT+zsaJOCw==", "1234567890", new Guid("f0c0879e-9ff3-4a24-a0e7-0ff51eab20df"), "Admin" });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Appointments_BranchId",
+                table: "Appointments",
+                column: "BranchId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Appointments_DoctorId",
@@ -242,11 +216,6 @@ namespace HealthCareScheduler.Migrations
                 column: "AppointmentId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Prescriptions_MedicineId",
-                table: "Prescriptions",
-                column: "MedicineId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Users_BranchId",
                 table: "Users",
                 column: "BranchId");
@@ -264,13 +233,7 @@ namespace HealthCareScheduler.Migrations
                 name: "Feedbacks");
 
             migrationBuilder.DropTable(
-                name: "Prescriptions");
-
-            migrationBuilder.DropTable(
                 name: "MedicalRecords");
-
-            migrationBuilder.DropTable(
-                name: "Medicines");
 
             migrationBuilder.DropTable(
                 name: "Appointments");

@@ -12,6 +12,7 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.EnumMapping" Version="3.2.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -25,14 +26,11 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
     <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dto\Service\" />
-    <Folder Include="Exceptions\ex\" />
-    <Folder Include="Mapper\mapp\" />
-    <Folder Include="Repositories\vc\" />
-    <Folder Include="Services\ccc\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>
