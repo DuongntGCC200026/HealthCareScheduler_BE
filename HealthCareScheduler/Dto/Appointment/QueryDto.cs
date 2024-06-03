@@ -9,5 +9,6 @@ namespace HealthCareScheduler.Dto.Appointment
 		public Guid? DoctorId { get; set; }
 		public Guid? PatientId { get; set; }
 		public EStatus? Status { get; set; }
+		public DateTime? CreatedDate { get; set; }
 	}
 }

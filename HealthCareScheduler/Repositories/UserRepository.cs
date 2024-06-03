@@ -1,4 +1,5 @@
-﻿using HealthCareScheduler.Dto.User;
+﻿using HealthCareScheduler.Constraints;
+using HealthCareScheduler.Dto.User;
 using HealthCareScheduler.Models;
 using HealthCareScheduler.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
@@ -45,11 +46,12 @@ namespace HealthCareScheduler.Repositories
 			try
 			{
 				return _context.Users
-					.Include(u => u.Role)
-					.Include(u => u.Branch)
-					.AsNoTracking()
-					.Where(u => u.Email != "admin@gmail.com")
-					.ToList();
+						.Include(u => u.Role)
+						.Include(c => c.Branch)
+						.AsNoTracking()
+						.Where(u => u.Email != "admin@gmail.com")
+						.OrderBy(u => u.FirstName)
+						.ToList();
 			}
 			catch (Exception)
 			{
@@ -77,6 +79,10 @@ namespace HealthCareScheduler.Repositories
 				{
 					query = query.Where(u => u.BranchId == queryDto.BranchId);
 				}
+				if (queryDto.Email != null)
+				{
+					query = query.Where(u => u.Email == queryDto.Email);
+				}
 
 				users = query.ToList();
 
@@ -88,12 +94,29 @@ namespace HealthCareScheduler.Repositories
 			}
 		}
 
+		public List<Role> GetAlRoles()
+		{
+			try
+			{
+				return _context.Roles
+						.AsNoTracking()
+						.Where(u => u.Name != ERole.Administrator.ToString())
+						.OrderBy(u => u.Name)
+						.ToList();
+			}
+			catch (Exception)
+			{
+				throw new Exception("Error getting all user");
+			}
+		}
+
 		public User GetUserByEmail(string email)
 		{
 			try
 			{
 				User user = _context.Users
 					.Include(u => u.Role)
+					.Include(u => u.Branch)
 					.FirstOrDefault(u => u.Email == email);
 				return user;
 			}

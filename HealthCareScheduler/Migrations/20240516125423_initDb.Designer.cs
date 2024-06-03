@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HealthCareScheduler.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240506153436_initDb")]
+    [Migration("20240516125423_initDb")]
     partial class initDb
     {
         /// <inheritdoc />
@@ -34,14 +34,16 @@ namespace HealthCareScheduler.Migrations
                     b.Property<Guid>("BranchId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("DoctorId")
+                    b.Property<Guid?>("DoctorId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Noted")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("PatientId")
@@ -50,9 +52,8 @@ namespace HealthCareScheduler.Migrations
                     b.Property<Guid>("ServiceId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.HasKey("AppointmentId");
 
@@ -135,7 +136,6 @@ namespace HealthCareScheduler.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Note")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Prescription")
@@ -275,7 +275,7 @@ namespace HealthCareScheduler.Migrations
                             Email = "admin@gmail.com",
                             FirstName = "Admin",
                             LastName = "Admin",
-                            Password = "AQAAAAIAAYagAAAAEOA5Yk06eoKYuYThCTBOHuWLANHjRyH4UO6ZVP1IqRE3PVq3JHgvJGpghT+zsaJOCw==",
+                            Password = "AQAAAAIAAYagAAAAEJXpzeBdcACTDZUcP+11nYmMlv0dXtFxPN9O5xQSoqybyuqHTsAe60HqQ12Fy8YStA==",
                             PhoneNumber = "1234567890",
                             RoleId = new Guid("f0c0879e-9ff3-4a24-a0e7-0ff51eab20df"),
                             Specialization = "Admin"
@@ -293,8 +293,7 @@ namespace HealthCareScheduler.Migrations
                     b.HasOne("HealthCareScheduler.Models.User", "Doctor")
                         .WithMany("DoctorApppointments")
                         .HasForeignKey("DoctorId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("HealthCareScheduler.Models.User", "Patient")
                         .WithMany("PatientApppointments")

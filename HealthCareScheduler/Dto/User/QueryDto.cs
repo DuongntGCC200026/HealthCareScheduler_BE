@@ -4,6 +4,6 @@
 	{
 		public Guid? RoleId { get; set; }
 		public Guid? BranchId { get; set; }
-
+		public string? Email { get; set; }
 	}
 }

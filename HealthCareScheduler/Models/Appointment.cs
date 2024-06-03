@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using HealthCareScheduler.Constraints;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HealthCareScheduler.Models
@@ -9,10 +10,11 @@ namespace HealthCareScheduler.Models
 		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 		public Guid AppointmentId { get; set; }
 		public DateTime DateTime { get; set; }
-		public string Noted {  get; set; }
-		public string Status { get; set; }
+		public string? Noted {  get; set; }
+		public DateTime CreatedDate { get; set; }
+		public EStatus Status { get; set; }
 		public Guid PatientId { get; set; }
-		public Guid DoctorId { get; set; }
+		public Guid? DoctorId { get; set; }
 		public Guid ServiceId { get; set; }
 		public Guid BranchId { get; set; }
 		public virtual User? Patient { get; set; }

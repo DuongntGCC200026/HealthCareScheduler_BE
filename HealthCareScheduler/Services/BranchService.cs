@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using HealthCareScheduler.Dto.Branch;
+using HealthCareScheduler.Dto.Service;
 using HealthCareScheduler.Exceptions;
 using HealthCareScheduler.Models;
+using HealthCareScheduler.Repositories;
 using HealthCareScheduler.Repositories.Interface;
 using HealthCareScheduler.Services.Interface;
 using NuGet.Protocol.Plugins;
@@ -69,6 +71,11 @@ namespace HealthCareScheduler.Services
 		public BranchDto UpdateBranch(Guid id, UpdateBranchDto updateBranchDto)
 		{
 			_ = _branchRepository.GetBranchById(id) ?? throw new NotFoundException("Branch does not exist");
+
+			if (_branchRepository.CheckUpdate(updateBranchDto.Name, id))
+			{
+				throw new ConflictException("Branch already exists");
+			}
 
 			updateBranchDto.BranchId = id;
 

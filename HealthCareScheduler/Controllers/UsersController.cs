@@ -4,9 +4,11 @@ using HealthCareScheduler.Services.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using HealthCareScheduler.Exceptions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HealthCareScheduler.Controllers
 {
+	[Authorize]
 	[Route("api/user")]
 	[ApiController]
 	public class UsersController : ControllerBase
@@ -25,6 +27,22 @@ namespace HealthCareScheduler.Controllers
 			try
 			{
 				List<UserDto> users = _userService.GetAllUser();
+				return Ok(users);
+			}
+			catch (Exception e)
+			{
+				response.Message = e.Message;
+				return StatusCode(StatusCodes.Status500InternalServerError, response);
+			}
+		}
+
+		[HttpGet("roles")]
+		public IActionResult GetRoles()
+		{
+			ResponseDto response = new();
+			try
+			{
+				List<RoleDto> users = _userService.GetAllRole();
 				return Ok(users);
 			}
 			catch (Exception e)
@@ -77,7 +95,7 @@ namespace HealthCareScheduler.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult Create([FromForm] CreateUserDto createUserDto)
+		public IActionResult Create([FromBody] CreateUserDto createUserDto)
 		{
 			if (!ModelState.IsValid)
 			{
@@ -146,6 +164,32 @@ namespace HealthCareScheduler.Controllers
 			{
 				response.Message = e.Message;
 				return StatusCode(StatusCodes.Status404NotFound, response);
+			}
+			catch (Exception e)
+			{
+				response.Message = e.Message;
+				return StatusCode(StatusCodes.Status500InternalServerError, response);
+			}
+		}
+
+		[HttpPut("{id}/change-password")]
+		public IActionResult ChangePassword(Guid id, [FromBody] ChangePasswordDto changePasswordDto)
+		{
+			ResponseDto response = new();
+			try
+			{
+				response.Message = _userService.ChangePassword(id, changePasswordDto);
+				return Ok(response);
+			}
+			catch (NotFoundException e)
+			{
+				response.Message = e.Message;
+				return StatusCode(StatusCodes.Status404NotFound, response);
+			}
+			catch (InvalidException e)
+			{
+				response.Message = e.Message;
+				return StatusCode(StatusCodes.Status400BadRequest, response);
 			}
 			catch (Exception e)
 			{

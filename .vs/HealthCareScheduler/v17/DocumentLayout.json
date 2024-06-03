@@ -3,191 +3,831 @@
   "WorkspaceRootPath": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\migrations\\20240408024007_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\migrations\\20240408024007_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\controllers\\medicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\controllers\\medicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\user\\querydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\user\\querydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\appointment\\querydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\appointment\\querydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\interface\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\interface\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\constraints\\estatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\constraints\\estatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\user\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\user\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\medicalrecord\\createmedicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\medicalrecord\\createmedicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\medicalrecord\\medicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\medicalrecord\\medicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\appointment\\createappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\appointment\\createappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\appointment\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\appointment\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\user\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\user\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\repositories\\branchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\repositories\\branchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\repositories\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\repositories\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\repositories\\interface\\ibranchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\repositories\\interface\\ibranchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\branchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\branchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\repositories\\interface\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\repositories\\interface\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\interface\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\interface\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\service\\updateservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\service\\updateservicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\branch\\updatebranchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\branch\\updatebranchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\repositories\\medicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\repositories\\medicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\repositories\\interface\\imedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\repositories\\interface\\imedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\medicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\medicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\interface\\imedicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\interface\\imedicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\services\\interface\\ibranchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\services\\interface\\ibranchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|d:\\gw\\1682 - final project 1 (04_11_2023)\\sourcecode\\backend\\healthcarescheduler\\healthcarescheduler\\dto\\medicalrecord\\updatemedicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1B9831-AC1E-48AD-8A9D-7D9FAD5174B5}|HealthCareScheduler\\HealthCareScheduler.csproj|solutionrelative:healthcarescheduler\\dto\\medicalrecord\\updatemedicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 276,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240408024007_initDb.cs",
-              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Migrations\\20240408024007_initDb.cs",
-              "RelativeDocumentMoniker": "HealthCareScheduler\\Migrations\\20240408024007_initDb.cs",
-              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Migrations\\20240408024007_initDb.cs",
-              "RelativeToolTip": "HealthCareScheduler\\Migrations\\20240408024007_initDb.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAArAAAA",
+              "DocumentIndex": 10,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\Interface\\IAppointmentService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IAppointmentService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\Interface\\IAppointmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T17:54:41.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "HealthCareScheduler\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "HealthCareScheduler\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T17:50:01.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MedicalRecord.cs",
-              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\MedicalRecord.cs",
-              "RelativeDocumentMoniker": "HealthCareScheduler\\Models\\MedicalRecord.cs",
-              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\MedicalRecord.cs",
-              "RelativeToolTip": "HealthCareScheduler\\Models\\MedicalRecord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T16:30:40.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Feedback.cs",
-              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\Feedback.cs",
-              "RelativeDocumentMoniker": "HealthCareScheduler\\Models\\Feedback.cs",
-              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\Feedback.cs",
-              "RelativeToolTip": "HealthCareScheduler\\Models\\Feedback.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T10:24:07.514Z"
+              "WhenOpened": "2024-05-15T11:33:33.828Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Branch.cs",
-              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\Branch.cs",
-              "RelativeDocumentMoniker": "HealthCareScheduler\\Models\\Branch.cs",
-              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\Branch.cs",
-              "RelativeToolTip": "HealthCareScheduler\\Models\\Branch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Title": "QueryDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Appointment\\QueryDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\Appointment\\QueryDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Appointment\\QueryDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\Appointment\\QueryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T02:38:12.443Z"
+              "WhenOpened": "2024-05-15T15:04:04.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "EStatus.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Constraints\\EStatus.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Constraints\\EStatus.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Constraints\\EStatus.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Constraints\\EStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:52:47.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\User.cs",
               "RelativeDocumentMoniker": "HealthCareScheduler\\Models\\User.cs",
               "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\User.cs",
               "RelativeToolTip": "HealthCareScheduler\\Models\\User.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAABAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T01:27:43.256Z"
+              "WhenOpened": "2024-05-07T14:57:02.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\Appointment.cs",
-              "RelativeDocumentMoniker": "HealthCareScheduler\\Models\\Appointment.cs",
-              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\Appointment.cs",
-              "RelativeToolTip": "HealthCareScheduler\\Models\\Appointment.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBsAAAACAAAA",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\User\\UserDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\User\\UserDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\User\\UserDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T01:26:51.506Z"
+              "WhenOpened": "2024-05-17T15:49:34.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "HealthCareScheduler\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Properties\\launchSettings.json",
-              "RelativeToolTip": "HealthCareScheduler\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-08T01:13:03.756Z"
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Repositories\\Interface\\IUserRepository.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Repositories\\Interface\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T09:19:41.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAADwv0IAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T11:22:20.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\Interface\\IUserService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IUserService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\Interface\\IUserService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T09:29:26.885Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\UserService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\UserService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\UserService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAADwv0AAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T09:29:50.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwFUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T15:51:05.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedicalRecordsController.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Controllers\\MedicalRecordsController.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Controllers\\MedicalRecordsController.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Controllers\\MedicalRecordsController.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Controllers\\MedicalRecordsController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwDIAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:50:27.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QueryDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\User\\QueryDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\User\\QueryDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\User\\QueryDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\User\\QueryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:16:43.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Models\\MedicalRecord.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\MedicalRecord.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Models\\MedicalRecord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:24:34.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\User\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\User\\ChangePasswordDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\User\\ChangePasswordDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\User\\ChangePasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:58:44.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Program.cs",
               "RelativeDocumentMoniker": "HealthCareScheduler\\Program.cs",
               "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Program.cs",
               "RelativeToolTip": "HealthCareScheduler\\Program.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAnwCsAAAABAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAMwGcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T00:49:20.466Z"
+              "WhenOpened": "2024-05-07T10:56:04.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
+              "Title": "CreateMedicalRecordDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\MedicalRecord\\CreateMedicalRecordDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\MedicalRecord\\CreateMedicalRecordDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\MedicalRecord\\CreateMedicalRecordDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\MedicalRecord\\CreateMedicalRecordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:26:13.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MedicalRecordDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\MedicalRecord\\MedicalRecordDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\MedicalRecord\\MedicalRecordDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\MedicalRecord\\MedicalRecordDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\MedicalRecord\\MedicalRecordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:25:53.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Repositories\\AppointmentRepository.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\AppointmentRepository.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Repositories\\AppointmentRepository.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwGgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T11:32:47.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "HealthCareScheduler\\Models\\ApplicationDbContext.cs",
               "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "HealthCareScheduler\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAnwCgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T00:48:15.712Z"
+              "WhenOpened": "2024-05-07T14:43:12.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
+              "Title": "CreateAppointmentDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Appointment\\CreateAppointmentDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\Appointment\\CreateAppointmentDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Appointment\\CreateAppointmentDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\Appointment\\CreateAppointmentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T12:14:48.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Appointment\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\Appointment\\AppointmentDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Appointment\\AppointmentDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\Appointment\\AppointmentDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T09:46:42.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Models\\Appointment.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Models\\Appointment.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Models\\Appointment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:46:58.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RoleDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\User\\RoleDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\User\\RoleDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\User\\RoleDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\User\\RoleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T09:29:00.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAcwEkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:16:03.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwDYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:14:21.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Mapper\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Mapper\\AutoMapperProfile.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Mapper\\AutoMapperProfile.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Mapper\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:42:34.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BranchRepository.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\BranchRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Repositories\\BranchRepository.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\BranchRepository.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Repositories\\BranchRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:24:52.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BranchService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\BranchService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\BranchService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\BranchService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\BranchService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAwwEoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:40:28.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\Auth\\RegisterDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\Auth\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:01:25.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Auth\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\Auth\\AuthResponse.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Auth\\AuthResponse.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\Auth\\AuthResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:13:22.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ServiceService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\ServiceService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\ServiceService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\ServiceService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\ServiceService.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAA0wFYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T07:17:34.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ServiceRepository.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\ServiceRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Repositories\\ServiceRepository.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\ServiceRepository.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Repositories\\ServiceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:25:59.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IServiceService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IServiceService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\Interface\\IServiceService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IServiceService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\Interface\\IServiceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T07:29:12.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IServiceRepository.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\Interface\\IServiceRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Repositories\\Interface\\IServiceRepository.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\Interface\\IServiceRepository.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Repositories\\Interface\\IServiceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T07:30:26.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IBranchRepository.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\Interface\\IBranchRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Repositories\\Interface\\IBranchRepository.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\Interface\\IBranchRepository.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Repositories\\Interface\\IBranchRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T07:34:45.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\Auth\\LoginDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\Auth\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:13:44.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\AuthService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\AuthService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\AuthService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:23:05.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\User\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\User\\CreateUserDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\User\\CreateUserDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\User\\CreateUserDto.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T15:48:55.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UpdateServiceDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Service\\UpdateServiceDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\Service\\UpdateServiceDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Service\\UpdateServiceDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\Service\\UpdateServiceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:48:24.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IMedicalRecordService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IMedicalRecordService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\Interface\\IMedicalRecordService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IMedicalRecordService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\Interface\\IMedicalRecordService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:38:21.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IAuthService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\Interface\\IAuthService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IAuthService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\Interface\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:56:00.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dockerfile",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dockerfile",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dockerfile",
+              "RelativeToolTip": "HealthCareScheduler\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-07T12:49:43.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HealthCareScheduler\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-14T14:16:12.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UpdateBranchDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Branch\\UpdateBranchDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\Branch\\UpdateBranchDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\Branch\\UpdateBranchDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\Branch\\UpdateBranchDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:31:15.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\docker-compose.yml",
               "RelativeDocumentMoniker": "HealthCareScheduler\\docker-compose.yml",
               "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\docker-compose.yml",
               "RelativeToolTip": "HealthCareScheduler\\docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-04-08T00:47:20.893Z"
+              "WhenOpened": "2024-05-07T13:14:30.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Repositories\\RoleRepository.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Repositories\\RoleRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:13:46.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MedicalRecordRepository.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\MedicalRecordRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Repositories\\MedicalRecordRepository.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\MedicalRecordRepository.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Repositories\\MedicalRecordRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAD4vy0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:32:53.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IMedicalRecordRepository.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\Interface\\IMedicalRecordRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Repositories\\Interface\\IMedicalRecordRepository.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Repositories\\Interface\\IMedicalRecordRepository.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Repositories\\Interface\\IMedicalRecordRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:30:45.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MedicalRecordService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\MedicalRecordService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\MedicalRecordService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\MedicalRecordService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\MedicalRecordService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAtwCkAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:40:16.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IBranchService.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IBranchService.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Services\\Interface\\IBranchService.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Services\\Interface\\IBranchService.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Services\\Interface\\IBranchService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:38:25.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UpdateMedicalRecordDto.cs",
+              "DocumentMoniker": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\MedicalRecord\\UpdateMedicalRecordDto.cs",
+              "RelativeDocumentMoniker": "HealthCareScheduler\\Dto\\MedicalRecord\\UpdateMedicalRecordDto.cs",
+              "ToolTip": "D:\\GW\\1682 - Final Project 1 (04_11_2023)\\SourceCode\\Backend\\HealthCareScheduler\\HealthCareScheduler\\Dto\\MedicalRecord\\UpdateMedicalRecordDto.cs",
+              "RelativeToolTip": "HealthCareScheduler\\Dto\\MedicalRecord\\UpdateMedicalRecordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:26:22.708Z"
             }
           ]
         }

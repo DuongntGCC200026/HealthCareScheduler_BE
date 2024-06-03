@@ -1,33 +1,34 @@
-﻿using HealthCareScheduler.Dto;
-using HealthCareScheduler.Dto.Appointment;
+﻿using HealthCareScheduler.Dto.MedicalRecord;
+using HealthCareScheduler.Dto;
 using HealthCareScheduler.Exceptions;
 using HealthCareScheduler.Services;
 using HealthCareScheduler.Services.Interface;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using HealthCareScheduler.Dto.MedicalRecord;
+using HealthCareScheduler.Dto.MedicalRecord;
 
 namespace HealthCareScheduler.Controllers
 {
-	[Route("api/appointment")]
+	[Route("api/medicalRecord")]
 	[ApiController]
-	public class AppointmentsController : ControllerBase
+	public class MedicalRecordsController : ControllerBase
 	{
-		private readonly IAppointmentService _appointmentService;
+		private readonly IMedicalRecordService _medicalRecordService;
 
-		public AppointmentsController(IAppointmentService appointmentService)
+		public MedicalRecordsController(IMedicalRecordService medicalRecordService)
 		{
-			_appointmentService = appointmentService;
+			_medicalRecordService = medicalRecordService;
 		}
 
 		[HttpGet("{id}")]
 		public IActionResult Get(Guid id)
 		{
-			ResponseDto response = new();
+			ResponseDto response = new ResponseDto();
 			try
 			{
-				AppointmentDto user = _appointmentService.GetAppointmentById(id);
-				return Ok(user);
+				MedicalRecordDto medicalRecordDto = _medicalRecordService.GetMedicalRecordById(id);
+				return Ok(medicalRecordDto);
 			}
 			catch (NotFoundException e)
 			{
@@ -41,14 +42,14 @@ namespace HealthCareScheduler.Controllers
 			}
 		}
 
-		[HttpGet("manageAppointment")]
-		public IActionResult GetAllAppointmentByBranchIdOrPatientIdorDoctorId([FromQuery] QueryDto queryDto)
+		[HttpGet("viewMedicalRecord/{id}")]
+		public IActionResult GetMedicalRecordByAppointmentId(Guid id)
 		{
-			ResponseDto response = new();
+			ResponseDto response = new ResponseDto();
 			try
 			{
-				List<AppointmentDto> user = _appointmentService.GetAllAppointmentByBranchIdOrPatientIdorDoctorId(queryDto);
-				return Ok(user);
+				MedicalRecordDto medicalRecordDto = _medicalRecordService.GetMedicalRecordByAppointmentId(id);
+				return Ok(medicalRecordDto);
 			}
 			catch (NotFoundException e)
 			{
@@ -63,28 +64,23 @@ namespace HealthCareScheduler.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult Create([FromBody] CreateAppointmentDto createAppointmentDto)
+		public IActionResult Post([FromBody] CreateMedicalRecordDto createMedicalRecordDto)
 		{
 			if (!ModelState.IsValid)
 			{
 				return BadRequest(ModelState);
 			}
 
-			ResponseDto response = new();
+			ResponseDto response = new ResponseDto();
 			try
 			{
-				AppointmentDto appointment = _appointmentService.CreateAppointment(createAppointmentDto);
-				return Ok(appointment);
+				MedicalRecordDto medicalRecordDto = _medicalRecordService.AddMedicalRecord(createMedicalRecordDto);
+				return Ok(medicalRecordDto);
 			}
 			catch (ConflictException e)
 			{
 				response.Message = e.Message;
 				return StatusCode(StatusCodes.Status409Conflict, response);
-			}
-			catch (InvalidException e)
-			{
-				response.Message = e.Message;
-				return StatusCode(StatusCodes.Status400BadRequest, response);
 			}
 			catch (Exception e)
 			{
@@ -94,23 +90,23 @@ namespace HealthCareScheduler.Controllers
 		}
 
 		[HttpPut("{id}")]
-		public IActionResult Put(Guid id, [FromBody] UpdateAppointmentDto updateAppointmentDto)
+		public IActionResult Put(Guid id, [FromBody] UpdateMedicalRecordDto updateMedicalRecordDto)
 		{
-			ResponseDto response = new();
+			if (!ModelState.IsValid)
+			{
+				return BadRequest(ModelState);
+			}
+
+			ResponseDto response = new ResponseDto();
 			try
 			{
-				AppointmentDto user = _appointmentService.UpdateAppointment(id, updateAppointmentDto);
-				return Ok(user);
+				MedicalRecordDto medicalRecord = _medicalRecordService.UpdateMedicalRecord(id, updateMedicalRecordDto);
+				return Ok(medicalRecord);
 			}
 			catch (NotFoundException e)
 			{
 				response.Message = e.Message;
 				return StatusCode(StatusCodes.Status404NotFound, response);
-			}
-			catch (InvalidException e)
-			{
-				response.Message = e.Message;
-				return StatusCode(StatusCodes.Status400BadRequest, response);
 			}
 			catch (Exception e)
 			{
@@ -122,10 +118,10 @@ namespace HealthCareScheduler.Controllers
 		[HttpDelete("{id}")]
 		public IActionResult Delete(Guid id)
 		{
-			ResponseDto response = new();
+			ResponseDto response = new ResponseDto();
 			try
 			{
-				response.Message = _appointmentService.DeleteAppointment(id);
+				response.Message = _medicalRecordService.DeleteMedicalRecord(id);
 				return Ok(response);
 			}
 			catch (NotFoundException e)

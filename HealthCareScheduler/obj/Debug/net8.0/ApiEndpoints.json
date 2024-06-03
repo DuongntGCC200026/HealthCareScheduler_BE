@@ -8,179 +8,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "DateTime",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "Noted",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Status",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "PatientId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "DoctorId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "ServiceId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "BranchId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.UserId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.Email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.FirstName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.LastName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.DateOfBirth",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.PhoneNumber",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.Address",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.Specialization",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.Role.RoleId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.Role.Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.Branch.BranchId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.Branch.Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.Branch.PhoneNumber",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Patient.Branch.Location",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.UserId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.Email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.FirstName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.LastName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.DateOfBirth",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.PhoneNumber",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.Address",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.Specialization",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.Role.RoleId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.Role.Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.Branch.BranchId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.Branch.Name",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.Branch.PhoneNumber",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Doctor.Branch.Location",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "createAppointmentDto",
+        "Type": "HealthCareScheduler.Dto.Appointment.CreateAppointmentDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -270,6 +100,11 @@
         "Name": "Status",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "CreatedDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -299,49 +134,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Password",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "FirstName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "LastName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "DateOfBirth",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "PhoneNumber",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Address",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Specialization",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "BranchId",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
+        "Name": "registerDto",
+        "Type": "HealthCareScheduler.Dto.Auth.RegisterDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -420,6 +215,91 @@
     "Method": "Delete",
     "RelativePath": "api/branch/{id}",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareScheduler.Controllers.MedicalRecordsController",
+    "Method": "Post",
+    "RelativePath": "api/medicalRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMedicalRecordDto",
+        "Type": "HealthCareScheduler.Dto.MedicalRecord.CreateMedicalRecordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareScheduler.Controllers.MedicalRecordsController",
+    "Method": "Get",
+    "RelativePath": "api/medicalRecord/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareScheduler.Controllers.MedicalRecordsController",
+    "Method": "Put",
+    "RelativePath": "api/medicalRecord/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateMedicalRecordDto",
+        "Type": "HealthCareScheduler.Dto.MedicalRecord.UpdateMedicalRecordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareScheduler.Controllers.MedicalRecordsController",
+    "Method": "Delete",
+    "RelativePath": "api/medicalRecord/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareScheduler.Controllers.MedicalRecordsController",
+    "Method": "GetMedicalRecordByAppointmentId",
+    "RelativePath": "api/medicalRecord/viewMedicalRecord/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -535,54 +415,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "FirstName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "LastName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Password",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "DateOfBirth",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "PhoneNumber",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Address",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Specialization",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "BranchId",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "RoleId",
-        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
+        "Name": "createUserDto",
+        "Type": "HealthCareScheduler.Dto.User.CreateUserDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -642,6 +477,27 @@
   },
   {
     "ContainingType": "HealthCareScheduler.Controllers.UsersController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/user/{id}/change-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "changePasswordDto",
+        "Type": "HealthCareScheduler.Dto.User.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareScheduler.Controllers.UsersController",
     "Method": "GetUserByRoleAndBranch",
     "RelativePath": "api/user/manageUser",
     "HttpMethod": "GET",
@@ -657,8 +513,23 @@
         "Name": "BranchId",
         "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareScheduler.Controllers.UsersController",
+    "Method": "GetRoles",
+    "RelativePath": "api/user/roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

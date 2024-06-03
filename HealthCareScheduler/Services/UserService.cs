@@ -55,6 +55,11 @@ namespace HealthCareScheduler.Services
 			return _mapper.Map<List<UserDto>>(users);
 		}
 
+		public List<RoleDto> GetAllRole()
+		{
+			List<Role> roles = _userRepository.GetAlRoles();
+			return _mapper.Map<List<RoleDto>>(roles);
+		}
 		public List<UserDto> GetAllUserByRoleIdAndBranchId(QueryDto queryDto)
 		{
 			List<User> users = _userRepository.GetAllUserByRoleIdAndBranchId(queryDto);
@@ -103,6 +108,21 @@ namespace HealthCareScheduler.Services
 		{
 			var passwordHasher = new PasswordHasher<string>();
 			return passwordHasher.HashPassword(null, newPassword);
+		}
+
+		public string ChangePassword(Guid userId, ChangePasswordDto changePasswordDto)
+		{
+			User user = _userRepository.GetUserById(userId) ?? throw new NotFoundException("User not found");
+
+			if (!VerifyPassword(user.Password, changePasswordDto.CurrentPassword))
+			{
+				throw new InvalidException("Current password is incorrect");
+			}
+
+			user.Password = HashPassword(changePasswordDto.NewPassword);
+			_userRepository.UpdateUser(user);
+
+			return "Password changed successfully";
 		}
 	}
 }

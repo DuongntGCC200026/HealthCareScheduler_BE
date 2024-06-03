@@ -13,7 +13,28 @@ namespace HealthCareScheduler.Repositories
         {
             _context = context;
         }
-        public void CreateService(Service service)
+
+		public bool CheckUpdate(string name, Guid id)
+		{
+			try
+			{
+				Service service = _context.Services.AsNoTracking().FirstOrDefault(u => u.ServiceName == name);
+				if (service != null)
+				{
+					if (service.ServiceId != id)
+					{
+						return true;
+					}
+				}
+				return false;
+			}
+			catch (Exception)
+			{
+				throw new Exception("Error checking Academic Year");
+			}
+		}
+
+		public void CreateService(Service service)
         {
             try
             {
@@ -45,7 +66,7 @@ namespace HealthCareScheduler.Repositories
             {
                 if (limit == 0)
                 {
-                    return _context.Services.ToList();
+                    return _context.Services.OrderBy(u => u.ServiceName).ToList();
                 }
                 else
                 {
@@ -74,8 +95,8 @@ namespace HealthCareScheduler.Repositories
         {
             try
             {
-                Service faculty = _context.Services.FirstOrDefault(u => u.ServiceName == name);
-                return faculty;
+                Service service = _context.Services.FirstOrDefault(u => u.ServiceName == name);
+                return service;
             }
             catch (Exception)
             {

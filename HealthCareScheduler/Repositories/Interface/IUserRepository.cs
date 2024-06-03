@@ -10,6 +10,7 @@ namespace HealthCareScheduler.Repositories.Interface
 		User GetUserById(Guid id);
 		void UpdateUser(User user);
 		void DeleteUser(User user);
+		List<Role> GetAlRoles();
 		List<User> GetAllUser();
 		List<User> GetAllUserByRoleIdAndBranchId(QueryDto queryDto);
 	}

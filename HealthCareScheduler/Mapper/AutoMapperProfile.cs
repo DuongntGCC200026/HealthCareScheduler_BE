@@ -2,6 +2,7 @@
 using HealthCareScheduler.Dto.Appointment;
 using HealthCareScheduler.Dto.Auth;
 using HealthCareScheduler.Dto.Branch;
+using HealthCareScheduler.Dto.MedicalRecord;
 using HealthCareScheduler.Dto.Service;
 using HealthCareScheduler.Dto.User;
 using HealthCareScheduler.Models;
@@ -31,11 +32,11 @@ namespace HealthCareScheduler.Mapper
             CreateMap<UpdateAppointmentDto, Appointment>();
             CreateMap<Appointment, AppointmentDto>();
 
-            /*CreateMap<CreateContributionDto, Contribution>();
-            CreateMap<UpdateContributionDto, Contribution>();
-            CreateMap<Contribution, ContributionDto>();
+            CreateMap<CreateMedicalRecordDto, MedicalRecord>();
+            CreateMap<UpdateMedicalRecordDto, MedicalRecord>();
+            CreateMap<MedicalRecord, MedicalRecordDto>();
 
-            CreateMap<FileDetails, FileDetailDto>();
+            /*CreateMap<FileDetails, FileDetailDto>();
             CreateMap<ImageDetails, ImageDetailDto>();
             
 
@@ -45,9 +46,9 @@ namespace HealthCareScheduler.Mapper
             /*CreateMap<UpdateUserDto, User>()
                 .ForMember(dest => dest.Password, opt => opt.Ignore());*/
 
-			/*CreateMap<CreateContributionDto, Contribution>();
-            CreateMap<UpdateContributionDto, Contribution>();
-            CreateMap<Contribution, ContributionDto>();
+			/*CreateMap<CreateMedicalRecordDto, MedicalRecord>();
+            CreateMap<UpdateMedicalRecordDto, MedicalRecord>();
+            CreateMap<MedicalRecord, MedicalRecordDto>();
 
             CreateMap<CreateFeedbackDto, Feedback>();
             CreateMap<UpdateFeedbackDto, Feedback>();

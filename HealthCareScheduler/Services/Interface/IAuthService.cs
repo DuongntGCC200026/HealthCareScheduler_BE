@@ -1,5 +1,4 @@
 ﻿using HealthCareScheduler.Dto.Auth;
-using HealthCareScheduler.Dto.Auth;
 
 namespace HealthCareScheduler.Services.Interface
 {

@@ -21,7 +21,7 @@ namespace HealthCareScheduler.Controllers
 		}
 
 		[HttpPost("register")]
-		public IActionResult Register([FromForm] RegisterDto registerDto)
+		public IActionResult Register([FromBody] RegisterDto registerDto)
 		{
 			if (!ModelState.IsValid)
 			{

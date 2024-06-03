@@ -1,4 +1,6 @@
-﻿using HealthCareScheduler.Dto.User;
+﻿using HealthCareScheduler.Dto.Branch;
+using HealthCareScheduler.Dto.Service;
+using HealthCareScheduler.Dto.User;
 using HealthCareScheduler.Models;
 
 namespace HealthCareScheduler.Dto.Appointment
@@ -7,13 +9,16 @@ namespace HealthCareScheduler.Dto.Appointment
 	{
 		public Guid AppointmentId { get; set; }
 		public DateTime DateTime { get; set; }
-		public string Noted { get; set; }
+		public string? Noted { get; set; }
 		public string Status { get; set; }
+		public DateTime CreatedDate { get; set; }
 		public Guid PatientId { get; set; }
-		public Guid DoctorId { get; set; }
+		public Guid? DoctorId { get; set; }
 		public Guid ServiceId { get; set; }
 		public Guid BranchId { get; set; }
 		public UserDto? Patient { get; set; }
 		public UserDto? Doctor { get; set; }
+		public ServiceDto? Service { get; set; }
+		public BranchDto? Branch { get; set; }
 	}
 }

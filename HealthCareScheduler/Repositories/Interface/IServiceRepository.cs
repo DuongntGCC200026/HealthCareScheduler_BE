@@ -11,5 +11,6 @@ namespace HealthCareScheduler.Repositories.Interface
 		List<Service> GetAllServices(int limit);
 		void UpdateService(Service service);
 		void DeleteService(Service service);
+		bool CheckUpdate(string name, Guid id);
 	}
 }

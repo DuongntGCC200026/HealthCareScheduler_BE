@@ -82,6 +82,10 @@ namespace HealthCareScheduler.Services
 			{
 				throw new NotFoundException("Service does not exist");
 			}
+			if (_serviceRepository.CheckUpdate(serviceDto.ServiceName, id))
+			{
+				throw new ConflictException("Service already exists");
+			}
 
 			// Update service properties
 			_mapper.Map(serviceDto, existingService);

@@ -10,7 +10,8 @@ namespace HealthCareScheduler.Services.Interface
 		string DeleteUser(Guid userId);
 		UserDto CreateUser(CreateUserDto userDto);
 		List<UserDto> GetAllUser();
+		List<RoleDto> GetAllRole();
 		List<UserDto> GetAllUserByRoleIdAndBranchId(QueryDto queryDto);
-		//string ChangePassword(Guid userId, ChangePasswordDto changePasswordDto);
+		string ChangePassword(Guid userId, ChangePasswordDto changePasswordDto);
 	}
 }

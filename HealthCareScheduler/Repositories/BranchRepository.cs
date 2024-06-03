@@ -13,6 +13,27 @@ namespace HealthCareScheduler.Repositories
 		{
 			_context = context;
 		}
+
+		public bool CheckUpdate(string name, Guid guid)
+		{
+			try
+			{
+				Branch branch = _context.Branches.AsNoTracking().FirstOrDefault(u => u.Name == name);
+				if (branch != null)
+				{
+					if (branch.BranchId != guid)
+					{
+						return true;
+					}
+				}
+				return false;
+			}
+			catch (Exception)
+			{
+				throw new Exception("Error checking Academic Year");
+			}
+		}
+
 		public void CreateBranch(Branch branch)
 		{
 			try
@@ -45,7 +66,7 @@ namespace HealthCareScheduler.Repositories
 			{
 				if (limit == 0)
 				{
-					return _context.Branches.Where(f => !f.Name.Equals("Admin")).ToList();
+					return _context.Branches.Where(f => !f.Name.Equals("Admin")).OrderBy(f => f.Name).ToList();
 				}
 				else
 				{

@@ -90,10 +90,11 @@ namespace HealthCareScheduler.Migrations
                 {
                     AppointmentId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     DateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Noted = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Noted = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Status = table.Column<int>(type: "int", nullable: false),
                     PatientId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    DoctorId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    DoctorId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     ServiceId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     BranchId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
@@ -154,7 +155,7 @@ namespace HealthCareScheduler.Migrations
                     RecordId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Dianosis = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Treatment = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Note = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Note = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Prescription = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     AppointmentId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
@@ -183,7 +184,7 @@ namespace HealthCareScheduler.Migrations
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "UserId", "Address", "BranchId", "DateOfBirth", "Email", "FirstName", "LastName", "Password", "PhoneNumber", "RoleId", "Specialization" },
-                values: new object[] { new Guid("53724a55-7fc2-4819-88f1-6291d5db64ea"), "Admin Address", null, new DateTime(2002, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@gmail.com", "Admin", "Admin", "AQAAAAIAAYagAAAAEOA5Yk06eoKYuYThCTBOHuWLANHjRyH4UO6ZVP1IqRE3PVq3JHgvJGpghT+zsaJOCw==", "1234567890", new Guid("f0c0879e-9ff3-4a24-a0e7-0ff51eab20df"), "Admin" });
+                values: new object[] { new Guid("53724a55-7fc2-4819-88f1-6291d5db64ea"), "Admin Address", null, new DateTime(2002, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@gmail.com", "Admin", "Admin", "AQAAAAIAAYagAAAAEJXpzeBdcACTDZUcP+11nYmMlv0dXtFxPN9O5xQSoqybyuqHTsAe60HqQ12Fy8YStA==", "1234567890", new Guid("f0c0879e-9ff3-4a24-a0e7-0ff51eab20df"), "Admin" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Appointments_BranchId",

@@ -11,5 +11,6 @@ namespace HealthCareScheduler.Repositories.Interface
 		List<Branch> GetAllBranch(int limit);
 		void UpdateBranch(Branch branch);
 		void DeleteBranch(Branch branch);
+		bool CheckUpdate(string name, Guid guid);
 	}
 }

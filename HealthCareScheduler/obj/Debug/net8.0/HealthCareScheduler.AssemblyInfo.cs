@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HealthCareScheduler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b0fec10716bff6fd7d2c221b76093fec4e99fae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acf7e5c493e7d34222956bd2a559d1895ad9d5f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HealthCareScheduler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HealthCareScheduler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
